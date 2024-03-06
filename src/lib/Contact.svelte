@@ -8,11 +8,6 @@
              data-te-ripple-init data-te-ripple-color="light">
             Email
           </a>
-          <a href="/" role="button"
-             class="mb-2 inline-block rounded bg-gradient-to-br from-neutral-500 to-zinc-900 hover:opacity-90 duration-200 px-8 py-3 font-medium text-white transition md:mr-2 md:mb-0"
-             data-te-ripple-init data-te-ripple-color="light">
-            Github
-          </a>
           
         </div>
       </section>

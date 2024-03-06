@@ -15,10 +15,10 @@
         <!-- <img class="absolute left-0 top-0 min-h-full min-w-full" src="" alt=""> -->
         {#if visible}
         <div transition:fade class="relative text-white"  >
-                <h2 class="text-5xl md:text-7xl font-black mb-2 text-center">Welcome to my 
-                        <span class="font-light">portfolio</span>
+                <h2 class="text-5xl md:text-6xl font-light mb-2 text-center uppercase">Welcome to my 
+                        <span class="font-bold">portfolio</span>
                 </h2>
-                <p class="text-gray-100 text-lg text-center">Web developer proficient in _______!</p>
+                <p class="text-gray-100 text-lg text-center">Web developer proficient in Svelte and Tailwind CSS!</p>
         </div>
         {/if}
 </header>

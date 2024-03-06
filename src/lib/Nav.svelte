@@ -11,7 +11,7 @@
         }
       </script>
       
-      <div class="bg-gradient-to-br from-red-600 to-zinc-600">
+      <div class="bg-gradient-to-br from-neutral-600 to-zinc-800">
         <div>
           <nav
             class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"

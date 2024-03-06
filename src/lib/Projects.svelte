@@ -37,17 +37,3 @@
            </div>
         </div>
     </section>
-
-    <style>
-    
-        .container {
-            display: flex;
-            flex-direction: column;
-            margin-top: 60px;
-        }
-    
-        .container p {
-            margin: 12px 0 24px 0;
-            line-height: 22px;
-        }
-    </style>

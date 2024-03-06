@@ -20,32 +20,29 @@
 <div class="line"></div>
 
 <!-- //  insert projects here  -->
-<div class="container">
-    <img src={logo} alt="zonder" width={width}/>
-    <div class="ye">
+<div class="relative flex flex-col gap-4 py-6 px-0">
+    <img src={logo} alt="" width={width}/>
+    <div class="mt-6">
         {#if urlPopup}
             <div class="url" transition:fade>
                 {link}
             </div>
         {/if}
-        <a class="title" href={link} target="_blank" on:mouseenter={() => toggleUrlPopup()} on:mouseleave={ () => toggleUrlPopup() }>{name}</a>
+        <a class="text-xl font-bold" href={link} target="_blank" on:mouseenter={() => toggleUrlPopup()} on:mouseleave={ () => toggleUrlPopup() }>{name}</a>
     </div>
-    <p>
+    <p class="text-md">
         {description}
     </p>
 
-    <div class="stack">
-        <img src="/src/assets/svelte.svg" alt="stack" width="24px"/>
-        <p>{stack}</p>
+    <div class="flex items-center gap-6 mt-8">
+        <img src="/src/assets/svelte.svg" alt="" width="24px"/>
+        <p class="text-md">{stack}</p>
     </div>
 </div>
 
 <div class="line"></div>
 
 <style>
-        .ye {
-            margin-top: 20px;
-        }
     
         .url {
             position: absolute;
@@ -56,37 +53,9 @@
             left: -30px;
         }
         
-        .title {
-            font-size: 20px;
-            font-weight: 600;
-        }
     
         .line {
             background: #2f2f2f;
             height: 1px;
-        }
-    
-        .container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            padding: 14px 0;
-        }
-    
-        .stack {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-top: 16px;
-        }
-    
-        .stack p {
-            font-size: 14px;
-        }
-    
-        .container p {
-            line-height: 23px;
-            font-size: 15px;
         }
     </style>
