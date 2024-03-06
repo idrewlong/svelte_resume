@@ -22,7 +22,7 @@
 <!-- //  insert projects here  -->
 <div class="relative flex flex-col gap-4 py-6 px-0">
     <img src={logo} alt="" width={width}/>
-    <div class="mt-6">
+    <div class="mt-4">
         {#if urlPopup}
             <div class="url" transition:fade>
                 {link}
@@ -34,8 +34,9 @@
         {description}
     </p>
 
-    <div class="flex items-center gap-6 mt-8">
-        <img src="/src/assets/svelte.svg" alt="" width="24px"/>
+    <div class="flex items-center gap-4 mt-4">
+        <!-- replace img with language or brand logo (website) of choice -->
+        <img src="/stack.svg" alt="" width="24px"/>
         <p class="text-md">{stack}</p>
     </div>
 </div>

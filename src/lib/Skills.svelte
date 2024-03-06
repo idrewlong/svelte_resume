@@ -1,5 +1,5 @@
 <script>
-    let pfp = '/src/assets/blankpfp.webp'
+    let pfp = '/blankpfp.webp'
 </script>
 
 

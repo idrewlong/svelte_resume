@@ -1,5 +1,5 @@
 <script>
-        let logo = '/src/assets/svelte.webp'
+        let logo = '/svelte.webp'
         let showMenu = false;
       
         function toggleNavbar() {
@@ -45,7 +45,6 @@
             >
             <a class="text-grey-800 duration-500 hover:underline ease-in-out" href="#about" on:click={closeNavbar}>About</a>
               <a class="text-grey-800 duration-500 hover:underline ease-in-out" href="#projects" on:click={closeNavbar}>Projects</a>
-              <!-- <a class="text-grey-800 duration-500 hover:text-orange-400 hover:underline ease-in-out" href="/multi-media" on:click={closeNavbar}>Multi-Media</a> -->
               <a class="text-grey-800 duration-500 hover:underline ease-in-out" href="#contact" on:click={closeNavbar}>Contact</a>
             </div>
           </nav>
