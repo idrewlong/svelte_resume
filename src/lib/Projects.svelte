@@ -1,6 +1,6 @@
 <script>
         import Project from "./Project.svelte";
-        let logo = '/src/assets/svelte.svg'
+        let logo = '/src/assets/svelte.webp';
 </script>
 
 <section class="max-w-5xl mx-auto rounded-md shadow-lg p-5 my-8 grid grid-cols-1 gap-5 bg-neutral-600" id="projects">

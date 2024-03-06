@@ -1,5 +1,5 @@
 <script>
-        let pfp = '/src/assets/svelte.svg'
+        let logo = '/src/assets/svelte.webp'
         let showMenu = false;
       
         function toggleNavbar() {
@@ -18,8 +18,8 @@
           >
             <div class="flex items-center justify-between">
               <a href="/" class="flex items-center">
-                <img src={pfp} class="h-16 hover:scale-105 duration-500" alt="iDrew Logo" />
-                <span class="text-2xl font-semibold whitespace-nowrap "></span>
+                <img src={logo} class="h-16 hover:scale-105 duration-500" alt="Logo" />
+                <span class="text-2xl font-semibold whitespace-nowrap ml-3 ">Resume Site</span>
               </a>
       
               <!-- Mobile menu button -->
